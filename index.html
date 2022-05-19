@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="hangman.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1> Hangman <br> Welcome to Hangman! </h1>
+    <div class="hidden_word">
+      
+    </div>
+    <div class="user_input">
+      <button class="user_guess" id="hint_btn"> Hint </button>
+      <form>
+        <!-- <label > </label><br> -->
+        <input placeholder="Guess a letter here" type="text" id="guess_field" class="user_guess" name="guessChar"><br>
+      </form>
+      <button id="guess_btn" class="user_guess"> Guess </button>
+      <!-- <button id="restart_btn"> Restart gane </button> -->
+    </div>
+
+    <div class="guesses_made">
+      Guessed letters:
+    </div>
+
+    <div class="lives_left">
+      lives:
+    </div>
+
+    <button id="restart_btn"> Restart game </button>
+
+    <script src="hangman.js"></script>
+  </body>
+</html>
